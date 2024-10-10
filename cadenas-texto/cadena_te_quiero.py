@@ -2,10 +2,10 @@
 cadena = "Te quiero sólo como amigo"
 
 # imprimir los dos primeros caracteres
-print(f"Los dos primeros caracteres: ^{cadena[:2]}")
+print(f"Los dos primeros caracteres: {cadena[:2]}")
 
 # imprimir los últimos dos caracteres
-print(f"Los dos últimos caracteres: {cadena[-2:]}") 
+print(f"Los dos últimos caracteres: {cadena[-3:]}") 
 
 # imprimir la cadena cada dos caracteres
 print(f"cadena cada dos caracteres: {cadena[::2]}")
